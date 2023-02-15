@@ -1,0 +1,16 @@
+.servicesContainer {
+  h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "Crimson Text", serif;
+    padding: 1.5rem;
+    color: rgb(215, 164, 119);
+    margin-bottom: 1rem;
+  }
+  :nth-child(2) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+}

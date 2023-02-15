@@ -1,0 +1,87 @@
+.AuraIntroContainer {
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media screen and (max-width: 750px) {
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+  }
+  > :nth-child(1) {
+    height: 100%;
+
+    width: 90%;
+    display: flex;
+    @media screen and (max-width: 1180px) {
+      width: 100%;
+    }
+    @media screen and (max-width: 750px) {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 4rem;
+    }
+    .Card1 {
+      height: 100%;
+      width: 50%;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      margin-top: -5rem;
+      gap: 2rem;
+      @media screen and (max-width: 750px) {
+        width: 100%;
+      }
+      > :nth-child(1) {
+        height: 70%;
+        width: 80%;
+        margin: auto;
+        background-color: lavenderblush;
+        @media screen and (max-width: 1180px) {
+          width: 95%;
+        }
+      }
+
+      > :nth-child(2) {
+        height: 30%;
+        > h4 {
+          font-family: "Crimson Text", serif;
+        }
+        > p {
+          font-family: "Raleway", sans-serif;
+        }
+      }
+    }
+    .Card2 {
+      height: 100%;
+      width: 50%;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      @media screen and (max-width: 750px) {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+      }
+      > :nth-child(1) {
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-bottom: 2rem;
+        > h4 {
+          font-family: "Crimson Text", serif;
+        }
+        > p {
+          font-family: "Raleway", sans-serif;
+        }
+      }
+      > :nth-child(2) {
+        height: 50%;
+        width: 80%;
+        margin: auto;
+        background-color: lavenderblush;
+      }
+    }
+  }
+}
