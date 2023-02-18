@@ -3,7 +3,7 @@ import styles from "./styles.module.scss";
 export const Navbar = () => {
   return (
     <nav className={styles.navbarContainer}>
-      <div>Logo</div>
+      <div>AuraConcepts</div>
       <div>
         <ul>
           <li>Home</li>

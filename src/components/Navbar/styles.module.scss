@@ -1,12 +1,13 @@
 .navbarContainer {
   padding: 10px;
   font-size: 1.5rem;
-  border-bottom: 2px solid;
+  color: rgb(147, 106, 118);
   font-family: "Crimson Text", serif;
-  background-color: pink;
+  background-color: white;
   display: flex;
   position: sticky;
   top: 0;
+  z-index: 100;
   // font-family: 'Raleway', sans-serif;
   > :nth-child(1) {
     width: 30%;

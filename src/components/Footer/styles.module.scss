@@ -1,0 +1,41 @@
+.footerContainer {
+  height: 40vh;
+  @media screen and (max-width: 700px) {
+    height: 60vh;
+  }
+  > :nth-child(1) {
+    height: 80%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    @media screen and (max-width: 700px) {
+      flex-direction: column;
+    }
+    > .footerBox {
+      padding: 1rem;
+      height: 8rem;
+      @media screen and (max-width: 700px) {
+        text-align: center;
+      }
+      h4 {
+        margin-bottom: 1rem;
+        font-family: "Crimson Text", serif;
+      }
+      p {
+        color: #936a76;
+        font-family: "Raleway", sans-serif;
+      }
+    }
+  }
+  > :nth-child(3) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem;
+    @media screen and (max-width: 700px) {
+      font-size: small;
+    }
+  }
+}

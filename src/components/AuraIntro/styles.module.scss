@@ -1,12 +1,10 @@
 .AuraIntroContainer {
-  height: 120vh;
   display: flex;
   justify-content: center;
   align-items: center;
   @media screen and (max-width: 750px) {
     display: flex;
     flex-direction: column;
-    height: 150vh;
   }
   > :nth-child(1) {
     height: 100%;
@@ -22,12 +20,11 @@
       gap: 4rem;
     }
     .Card1 {
-      height: 100%;
       width: 50%;
       padding: 2rem;
       display: flex;
       flex-direction: column;
-      margin-top: -5rem;
+      margin-top: -7rem;
       gap: 2rem;
       @media screen and (max-width: 750px) {
         width: 100%;
@@ -36,7 +33,10 @@
         height: 70%;
         width: 80%;
         margin: auto;
-        background-color: lavenderblush;
+
+        img {
+          object-fit: cover;
+        }
         @media screen and (max-width: 1180px) {
           width: 95%;
         }
@@ -46,6 +46,7 @@
         height: 30%;
         > h4 {
           font-family: "Crimson Text", serif;
+          color: rgb(215, 164, 119);
         }
         > p {
           font-family: "Raleway", sans-serif;
@@ -53,7 +54,6 @@
       }
     }
     .Card2 {
-      height: 100%;
       width: 50%;
       padding: 2rem;
       display: flex;
@@ -71,6 +71,7 @@
         margin-bottom: 2rem;
         > h4 {
           font-family: "Crimson Text", serif;
+          color: rgb(215, 164, 119);
         }
         > p {
           font-family: "Raleway", sans-serif;
@@ -80,7 +81,6 @@
         height: 50%;
         width: 80%;
         margin: auto;
-        background-color: lavenderblush;
       }
     }
   }

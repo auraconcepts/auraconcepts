@@ -5,7 +5,9 @@ export const AuraIntro = () => {
     <div className={styles.AuraIntroContainer}>
       <div>
         <div className={styles.Card1}>
-          <div>Image</div>
+          <div>
+            <img src="/Asset/image5.jpeg"></img>
+          </div>
           <div>
             <h4 className="text-[1.5rem] text-center p-2 text-[#141414]">
               About Us
@@ -41,7 +43,9 @@ export const AuraIntro = () => {
               chance to get it right!
             </p>
           </div>
-          <div>Image</div>
+          <div>
+            <img src="/Asset/image2.jpeg"></img>
+          </div>
         </div>
       </div>
     </div>
