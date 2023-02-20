@@ -1,0 +1,29 @@
+.contactBanner {
+  height: 80vh;
+  width: 100%;
+  text-align: center;
+  align-self: center;
+  font-size: 3rem;
+  background-color: red;
+  background-image: linear-gradient(
+      360deg,
+      rgba(5, 1, 1, 0.963),
+      rgba(187, 92, 92, 0.112)
+    ),
+    url("../../../public/Asset/image24.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  background-color: white; /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.3); /* Black w/opacity/see-through */
+  color: white;
+  font-size: 4rem;
+  padding: 1rem;
+  font-family: "Crimson Text", serif;
+}

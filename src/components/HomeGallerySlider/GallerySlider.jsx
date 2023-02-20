@@ -20,7 +20,7 @@ export const GallerySlider = () => {
       <Slide autoplay={true} slideDuration={0.5}>
         {SliderImages.map((element, index) => {
           return (
-            <div
+            <div className={styles.imageCard}
               style={{ ...divstyle, backgroundImage: `url(${element.image})` }}
             ></div>
           );
